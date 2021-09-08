@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "safta-food-6c65a"
+  },
+  "targets": {
+    "safta-food-6c65a": {
+      "hosting": {
+        "sazzad": [
+          "sazzad"
+        ]
+      }
+    }
+  }
+}
