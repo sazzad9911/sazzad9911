@@ -8,7 +8,7 @@ import Footer from './Footer'
 export default class Home extends Component {
     render() {
         return (
-            <div className="home">
+            <div className="home" style={{display:'block'}}>
                 <Container>
                 <Row>
                     <Col><h1>Sazzad</h1></Col>
@@ -65,9 +65,9 @@ export default class Home extends Component {
                     <Col><h1>Sazzad</h1></Col>
                 </Row>
                 <Row>
-                <Footer/>
                 </Row>
             </Container>
+            <Footer/>
             </div>
         )
     }

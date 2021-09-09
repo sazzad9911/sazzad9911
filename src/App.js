@@ -54,7 +54,9 @@ const MenuBody = () => {
         <Header setMenu={menu=>setMenu(menu)}></Header>
         <Switch>
           <Route path="/">
-            <Home></Home>
+          <div>
+            <Home/>
+          </div>
           </Route>
         </Switch>
         <MenuBody></MenuBody>
